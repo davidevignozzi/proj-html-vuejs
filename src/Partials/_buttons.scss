@@ -1,0 +1,10 @@
+@mixin nav-btn{
+    vertical-align: middle;
+    margin-left: 8px;
+    padding: 2px 5px;
+    background-color: darkorange;
+    border-radius: 3px;
+    color: #fff;
+    font-size: $mini-font;
+    border: none;
+}

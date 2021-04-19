@@ -3,3 +3,20 @@
     padding: 0;
     margin: 0;
 }
+.page-container{
+    font-family: $font;
+    width: 100vw;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
