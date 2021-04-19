@@ -2,10 +2,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .page-container {
-  font-family: "Roboto Slab", serif;
   width: 100vw;
 }
 
@@ -48,18 +48,49 @@ a {
   margin: 0 15px;
 }
 #wrap-nav #nav-bar ul li a {
+  display: flex;
+  align-items: center;
   color: #fff;
 }
 #wrap-nav .nav-left-part ul li a i {
   margin-right: 10px;
 }
 #wrap-nav .nav-left-part ul li a .nav-btn {
-  vertical-align: middle;
   margin-left: 8px;
   padding: 2px 5px;
-  background-color: darkorange;
+  background-color: #a47627;
   border-radius: 3px;
   color: #fff;
   font-size: 10px;
   border: none;
+}
+
+#wrap-hdr header {
+  width: 1400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap-hdr header ul {
+  display: flex;
+  align-items: center;
+}
+#wrap-hdr header ul li {
+  margin-left: 15px;
+}
+#wrap-hdr header ul li a {
+  color: #272a39;
+  display: flex;
+  align-items: center;
+}
+#wrap-hdr header ul li a:hover {
+  color: #ffab0b;
+}
+#wrap-hdr header ul li a .btn-hdr {
+  margin-left: 8px;
+  padding: 2px 5px;
+  background-color: #77e6fe;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 10px;
 }
