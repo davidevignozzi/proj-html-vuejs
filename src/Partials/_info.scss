@@ -1,9 +1,8 @@
 #info-container{
     position: absolute;
-    background-color: #d2b899;
+    background-color: $info-bckgrd;
     #info{
         margin: 0 auto;
-        height: 600px;
-        background-color: #d2b899;
+        background-color: $info-bckgrd;
     }
 }

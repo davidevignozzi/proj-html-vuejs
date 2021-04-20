@@ -1,9 +1,10 @@
 #arrow-down{ 
-    position: relative;
+    background-color: $info-bckgrd;
+    padding-top: 25px;
     margin: 0 auto;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 150px 750px 0 750px;
-    border-color: #007bff transparent transparent transparent;
+    border-width: 100px 750px 0 750px;
+    border-color: #fff transparent transparent transparent;
 }

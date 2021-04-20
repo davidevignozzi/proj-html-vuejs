@@ -183,6 +183,7 @@ header ul li a .btn-hdr {
 #presentation .presentation-main {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 #presentation .presentation-text {
   margin-top: 30px;
@@ -205,21 +206,21 @@ header ul li a .btn-hdr {
 }
 
 #arrow-down {
-  position: relative;
+  background-color: #e2dacb;
+  padding-top: 25px;
   margin: 0 auto;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 150px 750px 0 750px;
-  border-color: #007bff transparent transparent transparent;
+  border-width: 100px 750px 0 750px;
+  border-color: #fff transparent transparent transparent;
 }
 
 #info-container {
   position: absolute;
-  background-color: #d2b899;
+  background-color: #e2dacb;
 }
 #info-container #info {
   margin: 0 auto;
-  height: 600px;
-  background-color: #d2b899;
+  background-color: #e2dacb;
 }
