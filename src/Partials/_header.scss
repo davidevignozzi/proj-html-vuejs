@@ -4,6 +4,9 @@
         margin: 20px auto;
         display: flex;
         justify-content: space-between;
+        .logo-container:hover{
+            cursor: pointer;
+        }
         ul{
             display: flex;
             align-items: center;
@@ -14,7 +17,7 @@
                     display: flex;
                     align-items: center;
                     &:hover{
-                        color: $brand-color;
+                        color: $primary-color;
                     }
                     .btn-hdr{
                         @include hdr-btn;

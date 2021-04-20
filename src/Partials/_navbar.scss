@@ -1,13 +1,13 @@
 #wrap-nav{
     height: 50px;
-    background-color: $brand-color;
+    background-color: $primary-color;
     #nav-bar{
         width: 1400px;
         height: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        background-color: $brand-color;
+        background-color: $primary-color;
         ul{
             height: 100%;
             display: flex;
@@ -15,6 +15,11 @@
             align-items: center;
             li{
                 margin: 0 15px;
+                padding: 3px 5px;
+                &:hover{
+                    border-radius: 3px;
+                    background-color: $hover-nav-color;
+                }
                 a{
                     display: flex;
                     align-items: center;

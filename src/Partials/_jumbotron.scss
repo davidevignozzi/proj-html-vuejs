@@ -1,0 +1,35 @@
+#jumbotron-wrap{
+    background-image: url(../img/home_main_slider_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    #jumbotron{
+        width: 1400px;
+        height: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .jumbo-title{
+            text-align: center;
+            color: #fff;
+            h1{
+                font-size: $jumbo-title-size;
+                padding-bottom: 10px;
+            }
+            h2{
+                padding-top: 10px;
+                font-size: $title-size;
+            }
+        }
+        .jumbo-btns{
+            margin-top: 30px;
+            .primary-button{
+                @include primary-btn;
+            }
+            .secondary-button{
+                @include secondary-btn;
+            }
+        }
+    }
+}

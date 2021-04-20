@@ -46,6 +46,11 @@ a {
 }
 #wrap-nav #nav-bar ul li {
   margin: 0 15px;
+  padding: 3px 5px;
+}
+#wrap-nav #nav-bar ul li:hover {
+  border-radius: 3px;
+  background-color: #a47627;
 }
 #wrap-nav #nav-bar ul li a {
   display: flex;
@@ -58,7 +63,7 @@ a {
 #wrap-nav .nav-left-part ul li a .nav-btn {
   margin-left: 8px;
   padding: 2px 5px;
-  background-color: #a47627;
+  background-color: #f3cb79;
   border-radius: 3px;
   color: #fff;
   font-size: 10px;
@@ -70,6 +75,9 @@ a {
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+}
+#wrap-hdr header .logo-container:hover {
+  cursor: pointer;
 }
 #wrap-hdr header ul {
   display: flex;
@@ -93,4 +101,56 @@ a {
   border-radius: 3px;
   color: #fff;
   font-size: 10px;
+}
+
+#jumbotron-wrap {
+  background-image: url(../img/home_main_slider_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#jumbotron-wrap #jumbotron {
+  width: 1400px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#jumbotron-wrap #jumbotron .jumbo-title {
+  text-align: center;
+  color: #fff;
+}
+#jumbotron-wrap #jumbotron .jumbo-title h1 {
+  font-size: 62px;
+  padding-bottom: 10px;
+}
+#jumbotron-wrap #jumbotron .jumbo-title h2 {
+  padding-top: 10px;
+  font-size: 26px;
+}
+#jumbotron-wrap #jumbotron .jumbo-btns {
+  margin-top: 30px;
+}
+#jumbotron-wrap #jumbotron .jumbo-btns .primary-button {
+  background: #ffab0b;
+  margin-left: 8px;
+  padding: 20px 25px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+}
+#jumbotron-wrap #jumbotron .jumbo-btns .primary-button:hover {
+  cursor: pointer;
+}
+#jumbotron-wrap #jumbotron .jumbo-btns .secondary-button {
+  background: #77e6fe;
+  margin-left: 8px;
+  padding: 20px 25px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+}
+#jumbotron-wrap #jumbotron .jumbo-btns .secondary-button:hover {
+  cursor: pointer;
 }
