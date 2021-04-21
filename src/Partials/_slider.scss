@@ -1,0 +1,41 @@
+#slider{
+    display: flex;
+    .img-slider{
+        width: 33.3%;
+        height: 500px;
+        overflow: hidden;
+        .border-line{
+            @include border-line;
+            width: 80px;
+            margin: 20px auto;
+        }
+        a{
+            color: #fff;
+        }
+    }
+    .img-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        transition: 1s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
+    .img-holder1{
+        background-image: url(../img/home_courses_section_bg.jpg);
+    }
+    .img-holder2{
+        background-image: url(../img/home_events_section_bg.jpg);
+    }
+    .img-holder3{
+        background-image: url(../img/home_latest_news_section_bg.jpg);
+    }
+}

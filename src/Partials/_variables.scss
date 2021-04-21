@@ -14,3 +14,12 @@ $font: 'Roboto', sans-serif;
 $jumbo-title-size: 62px;
 $title-size: 26px;
 $mini-font: 10px;
+
+//var
+$img-slider: ".img-slider";
+
+@mixin border-line {
+    margin: 0 auto;
+    height: 1px;
+    background-color: $primary-color;
+}

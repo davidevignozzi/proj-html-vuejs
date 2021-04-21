@@ -14,6 +14,7 @@ header{
                 color: $titles-color;
                 display: flex;
                 align-items: center;
+                transition: 0.2s;
                 &:hover{
                     color: $primary-color;
                 }

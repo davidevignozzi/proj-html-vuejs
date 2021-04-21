@@ -97,6 +97,7 @@ header ul li a {
   color: #444D61;
   display: flex;
   align-items: center;
+  transition: 0.2s;
 }
 header ul li a:hover {
   color: #ffab0b;
@@ -179,9 +180,9 @@ header ul li a .btn-hdr {
 }
 #presentation .presentation-title .border-line {
   margin: 0 auto;
-  width: 150px;
   height: 1px;
   background-color: #ffab0b;
+  width: 150px;
 }
 #presentation .presentation-main {
   display: flex;
@@ -223,7 +224,7 @@ header ul li a .btn-hdr {
   background-color: #e2dacb;
 }
 #info-container #info {
-  padding-top: 50px;
+  padding: 50px 0 50px 0;
   margin: 0 auto;
   background-color: #e2dacb;
   display: flex;
@@ -270,4 +271,48 @@ header ul li a .btn-hdr {
 }
 #info-container .info-right-part ul li i {
   margin: 0 15px 0 5px;
+}
+
+#slider {
+  display: flex;
+}
+#slider .img-slider {
+  width: 33.3%;
+  height: 500px;
+  overflow: hidden;
+}
+#slider .img-slider .border-line {
+  margin: 0 auto;
+  height: 1px;
+  background-color: #ffab0b;
+  width: 80px;
+  margin: 20px auto;
+}
+#slider .img-slider a {
+  color: #fff;
+}
+#slider .img-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
+}
+#slider .img-holder:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#slider .img-holder1 {
+  background-image: url(../img/home_courses_section_bg.jpg);
+}
+#slider .img-holder2 {
+  background-image: url(../img/home_events_section_bg.jpg);
+}
+#slider .img-holder3 {
+  background-image: url(../img/home_latest_news_section_bg.jpg);
 }

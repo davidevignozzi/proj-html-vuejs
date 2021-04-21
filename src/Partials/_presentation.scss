@@ -16,10 +16,8 @@
         text-align: center;
         width: 100%;
         .border-line{
-            margin: 0 auto;
+            @include border-line;
             width: 150px;
-            height: 1px;
-            background-color: $primary-color;
         }
     }
     //main
