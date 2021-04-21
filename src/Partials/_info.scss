@@ -1,8 +1,51 @@
 #info-container{
-    position: absolute;
     background-color: $info-bckgrd;
     #info{
+        padding-top: 50px;
         margin: 0 auto;
         background-color: $info-bckgrd;
+        display: flex;
+    }
+    .info-left-part{
+        width: 50%;
+        p{
+            color: $p-color;
+            margin: 20px 0;
+            line-height: 25px;
+        }
+        ul{
+            li{
+                margin: 10px 0;
+                display: flex;
+
+                .info-i-container{
+                    width: 20px;
+                    margin-right: 10px;
+                    i{
+                        color: $primary-color;
+                    }
+                }
+                .info-li-p-container{
+                    strong{
+                        color: $titles-color;
+                    }
+                    span{
+                        color: $p-color;
+                    }
+                }
+            }
+        }
+    }
+    .info-right-part{
+        width: 50%;
+        ul{
+            margin-top: 20px;
+            li{
+                @include main-btn;
+                i{
+                    margin: 0 15px 0 5px;
+                }
+            }
+        }
     }
 }

@@ -30,6 +30,11 @@ a {
   text-decoration: none;
 }
 
+.title {
+  color: #444D61;
+  font-size: 26px;
+}
+
 #container-nav {
   height: 50px;
   background-color: #ffab0b;
@@ -162,8 +167,6 @@ header ul li a .btn-hdr {
   justify-content: center;
 }
 #presentation h2 {
-  color: #444D61;
-  font-size: 26px;
   margin-top: 30px;
 }
 #presentation p {
@@ -212,15 +215,59 @@ header ul li a .btn-hdr {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 100px 750px 0 750px;
+  border-width: 100px 700px 0 700px;
   border-color: #fff transparent transparent transparent;
 }
 
 #info-container {
-  position: absolute;
   background-color: #e2dacb;
 }
 #info-container #info {
+  padding-top: 50px;
   margin: 0 auto;
   background-color: #e2dacb;
+  display: flex;
+}
+#info-container .info-left-part {
+  width: 50%;
+}
+#info-container .info-left-part p {
+  color: #667287;
+  margin: 20px 0;
+  line-height: 25px;
+}
+#info-container .info-left-part ul li {
+  margin: 10px 0;
+  display: flex;
+}
+#info-container .info-left-part ul li .info-i-container {
+  width: 20px;
+  margin-right: 10px;
+}
+#info-container .info-left-part ul li .info-i-container i {
+  color: #ffab0b;
+}
+#info-container .info-left-part ul li .info-li-p-container strong {
+  color: #444D61;
+}
+#info-container .info-left-part ul li .info-li-p-container span {
+  color: #667287;
+}
+#info-container .info-right-part {
+  width: 50%;
+}
+#info-container .info-right-part ul {
+  margin-top: 20px;
+}
+#info-container .info-right-part ul li {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 0 5px 0;
+  padding: 10px;
+}
+#info-container .info-right-part ul li a {
+  color: #ffab0b;
+}
+#info-container .info-right-part ul li i {
+  margin: 0 15px 0 5px;
 }

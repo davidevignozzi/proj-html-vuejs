@@ -40,3 +40,13 @@
         cursor: pointer;
     }
 }
+
+@mixin main-btn {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    a{
+        color: $primary-color;
+    }
+}
