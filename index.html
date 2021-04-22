@@ -26,19 +26,21 @@
                 <nav id="nav-bar" class="wrapper">
                     <div class="nav-left-part">
                         <ul>
-                            <li><a href="#"><i class="fas fa-phone-alt"></i><span>1.800.567.8910</span><span class="nav-btn">24hrs</span></a></li>
-                            <li><a href="#"><i class="fas fa-envelope"></i><span>Contact Us</span></a></li>
-                            <li><a href="#"><i class="fas fa-graduation-cap"></i><span>Alumni</span></a></li>
-                            <li><a href="#"><i class="fas fa-landmark"></i><span>Campus</span></a></li>
+                            <li v-for="(item, index) in navLeftItems">
+                                <a href="#"><i :class="item.class"></i>
+                                    <span>{{item.span}}</span> <span v-if="index === 0" :class="item.btn.classBtn">24hrs</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
     
                     <div class="nav-right-part">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+                            <li v-for="social in socialList">
+                                <a href="#">
+                                    <i :class="social.class"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -53,13 +55,11 @@
                     </div>
 
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">COURSES<span class="btn-hdr">NEW</span></a></li>
-                        <li><a href="#">EVENTS</a></li>
-                        <li><a href="#">FACILITIES</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">ADMISSIONS<span class="btn-hdr">APPLY</span></a></li>
+                        <li v-for="(item, index) in headerItems">
+                            <a href="">{{item.content}}
+                                <span v-if="index === 2 || index === 6" :class="item.btn.classBtn">{{item.btn.span}}</span>
+                            </a>
+                        </li>
                     </ul>
                 </header>
             </div>
@@ -438,10 +438,11 @@
                     </div>
                     <div class="footer-right">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+                            <li v-for="social in socialList">
+                                <a href="#">
+                                    <i :class="social.class"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
