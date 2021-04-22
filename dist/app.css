@@ -488,3 +488,58 @@ header ul li a .btn-hdr {
 #subscribe-fluid #subscribe .credentials .primary-button:hover {
   cursor: pointer;
 }
+
+#footer-fluid footer {
+  margin: 50px auto;
+  background-image: url("../img/university_ft_bg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+#footer-fluid footer .section-list {
+  width: 20%;
+  padding: 0 10px;
+}
+#footer-fluid footer .section-list h4 {
+  color: #444D61;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr {
+  margin: 25px 0;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr .ftr-angle-part {
+  display: flex;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr .with-border {
+  border-bottom: 1px solid #667287;
+  margin-bottom: 10px;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr i {
+  color: #667287;
+  margin-right: 7px;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr a {
+  color: #444D61;
+  margin: 10px 0;
+  transition: 0.2s;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr a:hover {
+  color: #EAAB35;
+}
+#footer-fluid footer .section-list .footer-txt-cntnr p {
+  color: #667287;
+  margin: 10px 0;
+}
+#footer-fluid #last-footer {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-fluid #last-footer ul {
+  display: flex;
+}
+#footer-fluid #last-footer ul li {
+  margin: 0 5px;
+}
+#footer-fluid #last-footer ul li a {
+  color: #667287;
+}

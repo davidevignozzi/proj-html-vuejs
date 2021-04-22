@@ -1,0 +1,56 @@
+#footer-fluid{
+    footer{
+        margin: 50px auto;
+        background-image: url("../img/university_ft_bg.png");
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        .section-list{
+            width: 20%;
+            padding: 0 10px;
+            h4{
+                color: $titles-color;
+            }
+            .footer-txt-cntnr{
+                margin: 25px 0;
+                .ftr-angle-part{
+                    display: flex;
+                }
+                .with-border{
+                    border-bottom: 1px solid $p-color;
+                    margin-bottom: 10px;
+                }
+                i{
+                    color: $p-color;
+                    margin-right: 7px;
+                }
+                a{
+                    color: $titles-color;
+                    margin: 10px 0;
+                    transition: 0.2s;
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+                p{
+                    color: $p-color;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+    #last-footer{
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            li{
+                margin: 0 5px;
+                a{
+                    color: $p-color;
+                }
+            }
+        }
+    }
+}
