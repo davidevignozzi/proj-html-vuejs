@@ -1,0 +1,41 @@
+#subscribe-fluid{
+background-color: $titles-color;
+    #subscribe{
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 50px;
+        h2{
+            color: #fff;
+            font-size: $title-size;
+            padding-top: 50px;
+            span{
+                color: $primary-color;
+            }
+        }
+        p{
+            color: $p-color;
+            margin-bottom: 50px;
+        }
+        .credentials{
+            width: 100%;
+            input{
+                background: $p-color;
+                color: #fff;
+                width: 300px;
+                margin: 0 10px;
+                padding: 7px;
+                border: none;
+                &:focus {
+                    outline: none;
+                }
+                &::placeholder{
+                    color: #fff
+                }
+            }
+            .primary-button{
+                @include primary-btn;
+                padding: 7px 75px;
+            }
+        }
+    }
+}
