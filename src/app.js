@@ -66,7 +66,7 @@ var app = new Vue({
                 }
             },
         ],
-        
+        footerItems:["© Theme Fusion","All Right Reserved","Powered by Boolean","support@theme-fusion.com","1.800.555.6789",]  
     },
 
     methods: {
