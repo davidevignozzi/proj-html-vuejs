@@ -37,14 +37,14 @@ a {
 
 #container-nav {
   height: 50px;
-  background-color: #ffab0b;
+  background-color: #EAAB35;
 }
 #container-nav #nav-bar {
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: #ffab0b;
+  background-color: #EAAB35;
 }
 #container-nav #nav-bar ul {
   height: 100%;
@@ -100,7 +100,7 @@ header ul li a {
   transition: 0.2s;
 }
 header ul li a:hover {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 header ul li a .btn-hdr {
   margin-left: 8px;
@@ -139,7 +139,7 @@ header ul li a .btn-hdr {
   margin-top: 30px;
 }
 #jumbotron-container #jumbotron .jumbo-btns .primary-button {
-  background: #ffab0b;
+  background: #EAAB35;
   margin-left: 8px;
   padding: 20px 25px;
   border: none;
@@ -181,7 +181,7 @@ header ul li a .btn-hdr {
 #presentation .presentation-title .border-line {
   margin: 0 auto;
   height: 1px;
-  background-color: #ffab0b;
+  background-color: #EAAB35;
   width: 150px;
 }
 #presentation .presentation-main {
@@ -246,7 +246,7 @@ header ul li a .btn-hdr {
   margin-right: 10px;
 }
 #info-container .info-left-part ul li .info-i-container i {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 #info-container .info-left-part ul li .info-li-p-container strong {
   color: #444D61;
@@ -267,7 +267,7 @@ header ul li a .btn-hdr {
   padding: 10px;
 }
 #info-container .info-right-part ul li a {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 #info-container .info-right-part ul li i {
   margin: 0 15px 0 5px;
@@ -308,7 +308,7 @@ header ul li a .btn-hdr {
 #slider .img-holder .img-sld-txt .border-line {
   margin: 0 auto;
   height: 1px;
-  background-color: #ffab0b;
+  background-color: #EAAB35;
   width: 80px;
   margin: 20px auto;
 }
@@ -341,7 +341,7 @@ header ul li a .btn-hdr {
 .news-title .border-line {
   margin: 0 auto;
   height: 1px;
-  background-color: #ffab0b;
+  background-color: #EAAB35;
   width: 150px;
 }
 
@@ -408,13 +408,13 @@ header ul li a .btn-hdr {
   padding: 30px 25px 20px 25px;
 }
 #news-fluid #news .news-main .img-news .news-txt a {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 #news-fluid #news .news-main .img-news .news-txt .news-txt-content {
   height: 80px;
 }
 #news-fluid #news .news-main .img-news .news-txt .news-txt-content h3 {
-  color: #ffab0b;
+  color: #EAAB35;
   font-size: 26px;
 }
 #news-fluid #news .news-main .img-news .news-txt .news-txt-content p {
@@ -427,14 +427,14 @@ header ul li a .btn-hdr {
   justify-content: space-between;
 }
 #news-fluid #news .news-main .img-news .news-txt .news-footer span {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 #news-fluid #news .news-main .img-news .news-txt .news-footer span i {
   margin-right: 5px;
 }
 
 #subscribe-fluid {
-  background-color: #444D61;
+  background-color: #272a39;
 }
 #subscribe-fluid #subscribe {
   margin: 0 auto;
@@ -447,7 +447,7 @@ header ul li a .btn-hdr {
   padding-top: 50px;
 }
 #subscribe-fluid #subscribe h2 span {
-  color: #ffab0b;
+  color: #EAAB35;
 }
 #subscribe-fluid #subscribe p {
   color: #667287;
@@ -477,7 +477,7 @@ header ul li a .btn-hdr {
   color: #fff;
 }
 #subscribe-fluid #subscribe .credentials .primary-button {
-  background: #ffab0b;
+  background: #EAAB35;
   margin-left: 8px;
   padding: 20px 25px;
   border: none;
